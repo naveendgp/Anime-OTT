@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+button{
+    background-color: rgb(244, 46, 63);
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-align: center;
+   
+}
+
+button:hover{
+    transform: rotateX(30px);
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+
+/* Side Navigation */
+.SideNav {
+    position: fixed;
+    width: 15em;
+    height: 100%;
+    background-color: RGB(18, 19, 23);
+    border-right: .5px solid rgb(45, 45, 45);
+    color: white;
+}
+
+.SideNav h3 {
+    font-size: 35px;
+    font-family: system-ui, -apple-system;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.SideNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sideElements span{
+    position: absolute;
+    margin-left: 30px;
+    transition: .2s;
+}
+
+
+.link {
+    display: flex;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+
+}
+
+ /* Card Max*/
+.cardmax{
+    display: flex;
+    width: 90%;
+    background-size: auto;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 9rem;
+    color: white;
+}
+
+.cardbanner{
+    margin-left: 20rem;
+    width: 1100px;
+    margin-right: 20px;
+    margin-right: 5px;
+    border-radius: 0px 15px 15px 0px;
+    z-index: 1;
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+}
+
+
+
+.title{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 25%;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.title h4{
+    margin-top: 15px;
+    
+}
+
+.title h5{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.watchnow{
+    margin-top: 20px;
+}
+
+.watchnow button{
+    display: flex;
+    align-items: center;
+    padding: 25px 80px;
+    font-size: 19px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(182, 180, 180, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.watchnow button p{
+    margin-left: 10px;
+}
+
+.cardlogo {
+    width: 150px;
+    height: 150px;
+}
+
+
+.cardmaxDesc {
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.cardmaxDesc li{
+    margin-left: 10px;
+}
+
+
+/*  Top Navigation */
+.topnav{
+    margin-top: 5px;
+    height:3.5rem;
+    margin-left: 10em;
+    background-color: RGB(18, 19, 23);
+}
+
+.topnav  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnav ul li{
+    margin-left: 30px;
+}
+
+.searchcomp{
+    display: flex;
+    width: 33rem;
+    padding: 2px;
+    height: 35px;
+    padding: 20px 30px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background-color:#282828;
+    justify-content: center;
+}
+
+
+.search{
+    font-size: 18px;
+    width: 30rem;
+    height: 23px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.username{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.logout{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* Card */
+.card{
+    width: 13rem;
+    height: 20rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+    color: white;
+    background-color: RGB(22, 24, 31);
+   
+}
+
+
+.cardDesc h5{
+    margin-top: 5px;
+}
+
+.cardPoster{
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+    border-top-left-radius:10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.cardHover{
+    width: 17rem;
+    height: 20rem;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: RGB(40, 43, 50);
+    color: white;
+    transition: .2s;
+    transform: scale(1.2);
+}
+
+.cardHoverPost{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardhoverwatch{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.cardhoverwatch button{
+    display: flex;
+    align-items: center;
+    padding: 13px 65px;
+    font-size: 11px;
+    border-radius: 6px;
+    text-align: center;
+    font-family:Arial;
+    color: black;
+    background-color: #E1EED5;
+    margin-left: 11px;
+}
+
+
+
+.cardhoverwatch .addlist{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    padding: 10px 5px;
+}
+
+.cardhoverwatch  .addlist span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.5px;
+    color: white;
+}
+
+.cardhoverdesc{
+    display: flex;
+    margin-left: 10px;
+}
+
+.cardhoverdesc p{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cardhoverdesc span{
+    margin-left: 5px;
+}
+
+.hoverDesct{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Video Player */
+
+.animecontent{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.videPlayer{
+    margin-left: 50px;
+}
+
+.animeDesc{
+    background-color: #1d1c23;
+    margin-right: 6.5em;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #131217;
+    height: 13em;
+}
+
+.descriptionanime{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+/* Episode List */
+
+.episodes{
+    border: 1px solid #787586;
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 20em;
+    height: 30em;
+    border-radius: 20px;
+}
+
+.episodeHead{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.episodeslist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.episodeno{
+    background-color: ;
+    cursor: pointer;
+    border-bottom: solid rgb(255, 255, 255);
+    height: 40px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
